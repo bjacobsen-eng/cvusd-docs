@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_KEY = "REPLACED"; // Replace with your Anthropic API key
+const API_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY; // Replace with your Anthropic API key
 
 const DOCUMENT_TYPES = [
   { id: "conference_summary", label: "Conference Summary" },

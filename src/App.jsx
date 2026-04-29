@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_KEY = "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"; // Replace with your Anthropic API key
+const API_KEY = "REPLACED"; // Replace with your Anthropic API key
 
 const DOCUMENT_TYPES = [
   { id: "conference_summary", label: "Conference Summary" },

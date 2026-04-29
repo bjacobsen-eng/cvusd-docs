@@ -97,7 +97,7 @@ INSTRUCTIONS:
     try {
       const controller = new AbortController();
 const timeout = setTimeout(() => controller.abort(), 15000);
-const response = await fetch("https://api.anthropic.com/v1/messages", {
+const response = await fetch("/api/generate", {
   signal: controller.signal,
   method: "POST",
   headers: {
